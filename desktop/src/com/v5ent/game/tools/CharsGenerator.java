@@ -8,7 +8,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CharsGenerator {
-	private static String dir = "F:\\backend\\myxy\\core";
+//	private static String dir = "F:\\backend\\myxy\\core";
+	private static String dir = "D:\\hannkinnei\\myxy\\core";
 	
 	public static void main(String[] args) {
 		try {

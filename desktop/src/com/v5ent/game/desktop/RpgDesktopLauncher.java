@@ -1,5 +1,7 @@
 package com.v5ent.game.desktop;
 
+import java.io.File;
+
 import com.badlogic.gdx.Files;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
@@ -15,6 +17,7 @@ public class RpgDesktopLauncher {
 		config.width = 800;
 		config.height = 600;
 		config.addIcon("menus/logo.png", Files.FileType.Internal);
+//		config.addIcon("D:\\hannkinnei\\myxy\\core\\assets\\menus\\logo.png", Files.FileType.Internal);
 		Gdx.app = new LwjglApplication(new MyRpgGame(), config);
 //		Gdx.app.setLogLevel(Application.LOG_INFO);
 //		Gdx.app.setLogLevel(Application.LOG_DEBUG);
